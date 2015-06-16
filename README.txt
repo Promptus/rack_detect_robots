@@ -5,7 +5,7 @@ known robots (Googl, Yahoo,)
 
 == Usage (Rails 3) ==
 Add it to your Gemfile:
-gem "rack_detect_robots","0.0.1"
+gem "rack_detect_robots", :git => "https://github.com/Promptus/rack_detect_robots.git", :branch => "dependency_fix"
 
 Ad it to your Rack stack:
 use Rack::DetectRobots
